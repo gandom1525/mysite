@@ -118,23 +118,14 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'static' / 'statics'
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = BASE_DIR / 'media'
 
-STATICFILES_DIRS = [
-    BASE_DIR / 'statics',
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / 'statics'
+# ]
 
 
-=======
->>>>>>> parent of 005e27a (template tag)
-=======
->>>>>>> parent of 005e27a (template tag)
-=======
->>>>>>> parent of 005e27a (template tag)
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
