@@ -119,6 +119,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'static' / 'statics'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
@@ -127,6 +128,8 @@ STATICFILES_DIRS = [
 ]
 
 
+=======
+>>>>>>> parent of 005e27a (template tag)
 =======
 >>>>>>> parent of 005e27a (template tag)
 # Default primary key field type
