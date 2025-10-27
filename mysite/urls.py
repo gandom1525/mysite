@@ -22,7 +22,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include("website.urls"))
+    path('',include("website.urls")),
+    path('blog/',include("blog.urls"))
 ]         
 # http://127.0.0.1:8000/asd  
 if settings.DEBUG:

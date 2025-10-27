@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse,JsonResponse
+from django.http import HttpResponse,JsonResponse 
 
 
 def home_page(request):
@@ -8,8 +8,8 @@ def home_page(request):
 def about_page(request):
     return render(request,'website/about.html')
 
-def countent_page(request):
-    return render(request,'website/countent.html')
+def contact_page(request):
+    return render(request,'website/contact.html')
 
 
 # def home_page(request):
